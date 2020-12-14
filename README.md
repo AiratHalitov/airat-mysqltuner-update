@@ -8,4 +8,6 @@ git clone https://github.com/AiratHalitov/airat-mysqltuner-update
 cd airat-mysqltuner-update
 
 sudo ./airat-mysqltuner-update.sh
+
+mysqltuner
 ```
