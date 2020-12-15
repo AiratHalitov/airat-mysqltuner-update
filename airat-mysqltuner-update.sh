@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Author: Airat Halitov
+# GitHub: https://github.com/AiratHalitov/airat-mysqltuner-update
+# License: GPLv3
+
 rm -rf basic_passwords.txt vulnerabilities.csv mysqltuner.pl
 
 wget https://raw.githubusercontent.com/major/MySQLTuner-perl/master/basic_passwords.txt -O basic_passwords.txt
