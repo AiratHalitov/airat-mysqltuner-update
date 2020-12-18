@@ -6,9 +6,9 @@
 
 rm -rf basic_passwords.txt vulnerabilities.csv mysqltuner.pl
 
-wget https://raw.githubusercontent.com/major/MySQLTuner-perl/master/basic_passwords.txt -O basic_passwords.txt
-wget https://raw.githubusercontent.com/major/MySQLTuner-perl/master/vulnerabilities.csv -O vulnerabilities.csv
-wget http://mysqltuner.pl/ -O mysqltuner.pl
+wget https://raw.githubusercontent.com/major/MySQLTuner-perl/master/basic_passwords.txt -O basic_passwords.txt > /dev/null 2>&1
+wget https://raw.githubusercontent.com/major/MySQLTuner-perl/master/vulnerabilities.csv -O vulnerabilities.csv > /dev/null 2>&1
+wget http://mysqltuner.pl/ -O mysqltuner.pl > /dev/null 2>&1
 
 if [[ -f  mysqltuner.pl && -f basic_passwords.txt && -f vulnerabilities.csv ]]; then
     chmod +x mysqltuner.pl
