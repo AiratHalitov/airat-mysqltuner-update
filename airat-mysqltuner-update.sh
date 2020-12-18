@@ -12,8 +12,8 @@ wget http://mysqltuner.pl/ -O mysqltuner.pl > /dev/null 2>&1
 
 if [[ -f  mysqltuner.pl && -f basic_passwords.txt && -f vulnerabilities.csv ]]; then
     chmod +x mysqltuner.pl
-    mv mysqltuner.pl /usr/local/bin/mysqltuner
-    mv basic_passwords.txt /usr/local/bin/basic_passwords.txt
-    mv vulnerabilities.csv /usr/local/bin/vulnerabilities.csv
+    sudo mv mysqltuner.pl /usr/local/bin/mysqltuner
+    sudo mv basic_passwords.txt /usr/local/bin/basic_passwords.txt
+    sudo mv vulnerabilities.csv /usr/local/bin/vulnerabilities.csv
     echo "Done!"
 fi
